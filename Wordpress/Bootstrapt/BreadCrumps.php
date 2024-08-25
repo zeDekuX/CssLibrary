@@ -6,6 +6,7 @@ BreadCrumps copy on function.php
 ------------------------------------------------ */
 
 function custom_breadcrumbs() {
+  global $post; // Dichiarare la variabile globale
   $separator = ' / ';
   $home_title = 'Home';
 
